@@ -4,7 +4,7 @@ import dashboardImage from "../assets/dashboard.png"
 import covidTrackerImage from "../assets/covidTracker.png"
 import formdataImage from "../assets/formdata.png"
 import portfolioImage from "../assets/portfolio.png"
-import ipTrackerImage from "../assets/ipTracker.png"
+import ipTrackerImage from "../assets/IPTracker.png"
 import portfolioNew from "../assets/newport.png"
 import movix from "../assets/movix.png"
 const Project = () => {
