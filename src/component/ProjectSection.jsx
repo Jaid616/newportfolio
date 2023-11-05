@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom'
 import dashboardImage from "../assets/dashboard.png"
 import portfolioImage from "../assets/portfolio.png"
 import movix from "../assets/movix.png"
+import caratgliz from "../assets/caratgliz.png"
+import stageticket from "../assets/stageticket.png"
 const Project = () => {
   return (
    <>
@@ -19,6 +21,19 @@ const Project = () => {
   <button className='btn p-2 px-4  text-white rounded-full  font-display hidden md:block border '> View all projects</button>
 </NavLink>
 </div>
+<div className=' max-w-sm  border-2  bg-[#a26fbc] border-fuchsia-700  shadow-rose-100 shadow-box m-5  rounded-md '  data-aos="zoom-in"  data-aos-offset="250" data-aos-duration="1000">
+       
+           <img src={caratgliz} alt="" srcSet="" className='  opacity-20 hover:opacity-100' />
+         
+     
+       </div>
+
+       <div className=' max-w-sm  border-2  bg-[#a26fbc] border-fuchsia-700  shadow-rose-100 shadow-box m-5  rounded-md '  data-aos="zoom-in"  data-aos-offset="250" data-aos-duration="1000">
+       
+           <img src={stageticket} alt="" srcSet="" className='  opacity-20 hover:opacity-100' />
+         
+     
+       </div>
 <div className=' max-w-sm  border-2  bg-[#a26fbc] border-fuchsia-700  shadow-rose-100 shadow-box m-5  rounded-md '  data-aos="zoom-in"  data-aos-offset="250" data-aos-duration="1000">
        
            <img src={dashboardImage} alt="" srcSet="" className='  opacity-20 hover:opacity-100' />

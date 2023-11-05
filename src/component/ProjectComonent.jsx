@@ -20,25 +20,30 @@ const ProjectComonent = (props) => {
         <p className="  text-lg p-4 font-display"style={{ textShadow: "3px 5px 5px #c105ed" }}>
          {props.description}
         </p>
+
+        <p className="  text-lg p-4 font-display"style={{ textShadow: "3px 5px 5px #c105ed" }}>
+         {props.role}
+        </p>
+
         
 
         {props.technology.map((item , index)=>{
           return (
              
-            <button className="btn p-1 px-3 ml-5 rounded-md border" key={index}  >
+            <button className="btn p-1 px-3 ml-5 mb-3 rounded-md border" key={index}  >
               {item}
            </button>
           )
         })}     
 
         <div className="my-7">
-
+      {props.githubLink  &&
         <a href={props.githubLink} target="_blank">
 
         <button className="btn p-2 ml-5  rounded-full border ">
           <FiGithub/>
         </button>
-        </a>
+        </a> }
         <a href={props.liveLink} target="_blank">
 
         <button className="btn p-2  ml-5  rounded-full border ">

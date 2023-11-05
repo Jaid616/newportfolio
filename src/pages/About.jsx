@@ -16,7 +16,7 @@ const About = () => {
 
         </div>
         <div className=' p-4 text-2xl'>
-        <p className=' text-white font-display p-4'>I am a Full-stack developer based in Gorakhpur, India. I am done BCA from Chhatrapati Shahu Ji Maharaj University Kanpur. I am actively looking for opportunities that will help me in growing/building my tech stack.</p>  
+        <p className=' text-white font-display p-4'>I am a Full-stack developer with more than 1 year experience in React Development based  in New Delhi, India. I am done BCA from Chhatrapati Shahu Ji Maharaj University Kanpur. I am actively looking for opportunities that will help me in growing/building my tech stack.</p>  
         <p className=' text-white font-display p-4'>I am still a learner who still needs to learn lot of cool things. Please ping me up if you have anything interesting or want to share a powerful framework, a useful library.</p>
         <p className=' text-white font-display p-4 '>I love to code, watch football and travel if you were missing on it today.</p>
       </div>
@@ -32,11 +32,11 @@ const About = () => {
    <div className="flex-wrapper">
    <Chart name="JAVASCRIPT" percentage="65" color = "fuchsia"/>
    <Chart name="JAVA"  percentage="30" color = "fuchsia"/>
-   <Chart name ="REACT" percentage="60" color = "orange"/>
+   <Chart name ="REACT" percentage="75" color = "orange"/>
+   <Chart name ="REDUX" percentage="85" color = "orange"/>
    <Chart name ="NODE" percentage="45"  color = "orange"/>
    <Chart name ="MONGO_DB" percentage="50"  color = "orange"/>
-   <Chart name ="HTML5" percentage="85" color = "orange"/>
-   <Chart name ="CSS3" percentage="68"  color = "green"/>
+   <Chart name ="SASS" percentage="68"  color = "green"/>
    <Chart name ="BOOTSTRAP" percentage="80" color = "green"/>
    <Chart name ="TAILWIND" percentage="80" color = "green"/>
    <Chart name ="MATERIAL_UI" percentage="60" color = "green"/>

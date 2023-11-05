@@ -7,6 +7,8 @@ import portfolioImage from "../assets/portfolio.png"
 import ipTrackerImage from "../assets/IPTracker.png"
 import portfolioNew from "../assets/newport.png"
 import movix from "../assets/movix.png"
+import caratgliz from "../assets/caratgliz.png"
+import stageTicket from "../assets/stageTicket.png"
 const Project = () => {
   return (
    <>
@@ -20,6 +22,24 @@ const Project = () => {
         </h3>
       </div>
       <div className='flex gap-12 md:gap-16 justify-center flex-wrap flex-grow '>
+
+      <ProjectComonent image = {caratgliz} 
+                       title = "E-commerce Website" 
+                       description = "An E-commerce Platform where user can purchase jewellery products" 
+                       role = "Develop the whole Frontend part from scratch and admin panel too "
+                       technology = {["React" ,  "Bootstrap" , "SASS", "Redux" , "Axios","Webpack" , "OAuth2"]}
+                       liveLink = "https://caratglitz.com/"/>  
+
+
+<ProjectComonent image = {stageTicket} 
+                       title = "Live Events Ticket Sell Platform" 
+                       description = "A Platfrom for live events tickets booking" 
+                       role = "Develop and manage the tickets booking Seat Plan and other dynamic Part through Admin Panel and admin panel too "
+                       technology = {["React" ,  "Material UI" , "Redux" , "Axios",]}
+                       liveLink = "https://stage-ticket.de/"/>                   
+
+
+        
       <ProjectComonent image = {movix} 
                        title = "Movix Project" 
                        description = "A Dynamic website for upcoming and latest releases movies and TV shows information like released Date , Rating , Category , Casting and videos Trailer using The Movie Database." 
