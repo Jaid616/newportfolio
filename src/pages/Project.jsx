@@ -8,7 +8,7 @@ import ipTrackerImage from "../assets/IPTracker.png"
 import portfolioNew from "../assets/newport.png"
 import movix from "../assets/movix.png"
 import caratgliz from "../assets/caratgliz.png"
-import stageTicket from "../assets/stageTicket.png"
+import stageTicket from "../assets/stageticket.png"
 const Project = () => {
   return (
    <>
